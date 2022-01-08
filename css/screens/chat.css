@@ -21,11 +21,15 @@
 }
 
 @keyframes fadeIn {
-  from {
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  1% {
     transform: translateY(10px);
     opacity: 0;
   }
-  to {
+  100% {
     transform: none;
     opacity: 1;
   }
