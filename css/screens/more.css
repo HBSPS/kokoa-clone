@@ -38,3 +38,64 @@
   font-size: 32px;
   color: white;
 }
+
+.user-component__subtitle i {
+  color: red;
+  opacity: 0.3;
+}
+
+.wallet {
+  background-color: var(--yellow);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.wallet_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet_header_title span {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.wallet_header_title_buttons span {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.wallet_notice {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet_pay {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.wallet_footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet_footer_buttons {
+  display: flex;
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}

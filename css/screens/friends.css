@@ -16,13 +16,15 @@
   padding: 0px var(--horizontal-space);
 }
 
-.friends-screen__channel {
+.friends-screen__channel,
+.friends-screen__friends {
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
-.friends-screen__channel-header {
+.friends-screen__channel-header,
+.friends-screen__friends-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -37,4 +39,15 @@
     opacity: 0;
     visibility: hidden;
   }
+}
+
+.user_music {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 128, 0, 0.8);
+}
+
+.user_music i {
+  opacity: 1;
+  color: rgba(0, 128, 0, 0.8);
 }
